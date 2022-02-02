@@ -1,0 +1,43 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{SICK.2021a}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SAo}{%
+         family={SICK\bibnamedelima AG},
+         familyi={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={o.V.},
+         giveni={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAo1}
+    \strng{fullhash}{SAo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+  \field{howpublished}{\url{https://www.sick.com/de/de/ueber-sick/w/about-sick/}}
+    \field{title}{Übersicht über das Unternehmen \emph{D SICK AG}}
+    \field{month}{09}
+    \field{year}{2021}
+  \endentry
+\enddatalist
+\endinput
