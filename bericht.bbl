@@ -17,6 +17,93 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{EnergyPolicy.2016a}{book}{}
+    \name{author}{1}{}{%
+      {{hash=EPRWUWDJVHSP}{%
+         family={Energy\bibnamedelima Policy},
+         familyi={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={R.\bibnamedelima Winkel+ U. Wddige+ D. Johnson+ V. Hoen+
+  S.\bibnamedelima Papaefthimiou},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  U\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  V\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ELSEVIER}%
+    }
+    \strng{namehash}{EPRWUWDJVHSP1}
+    \strng{fullhash}{EPRWUWDJVHSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Shore Side Electricity in europe: Potential and environmental
+  benefits}
+    \field{year}{2016}
+  \endentry
+
+  \entry{HandE.2003a}{book}{}
+    \name{author}{2}{}{%
+      {{hash=h}{%
+         family={hydrology},
+         familyi={h\bibinitperiod},
+      }}%
+      {{hash=ESSWSMPSMMJ}{%
+         family={Earth System\bibnamedelima Sciences},
+         familyi={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+         given={W.\bibnamedelima Schöpp+ M. Posch+ S. Mylona+ M.\bibnamedelima
+  Johansson},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hydrology \& Earth System Sciences}%
+    }
+    \strng{namehash}{hESSWSMPSMMJ1}
+    \strng{fullhash}{hESSWSMPSMMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Long-term development of acid deposition (1880-2030) in
+  sensitive freshwater regions in Europe}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Kfz_Auskunft}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ko}{%
+         family={kfzauskunft.de},
+         familyi={k\bibinitperiod},
+         given={o.V.},
+         giveni={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ko1}
+    \strng{fullhash}{ko1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+  \field{howpublished}{\url{https://www.kfz-auskunft.de/umwelt/schadstoffklassen.php}}
+    \field{title}{Schadstoffklassen Euro 1, 2, 3, 4, 5, 6, 7 und I bis VI}
+    \field{month}{02}
+    \field{year}{2022}
+  \endentry
+
   \entry{SICK.2021a}{misc}{}
     \name{author}{1}{}{%
       {{hash=SAo}{%
@@ -38,6 +125,30 @@
     \field{title}{Übersicht über das Unternehmen \emph{D SICK AG}}
     \field{month}{09}
     \field{year}{2021}
+  \endentry
+
+  \entry{Zoll}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=Zo}{%
+         family={Zoll},
+         familyi={Z\bibinitperiod},
+         given={o.V.},
+         giveni={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{Zo1}
+    \strng{fullhash}{Zo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+  \field{howpublished}{\url{https://www.zoll.de/DE/Fachthemen/Steuern/Verbrauchsteuern/Energie/Grundsaetze-Besteuerung/Steuerhoehe/steuerhoehe_node.html}}
+    \field{title}{Steuersätze für Energierzeugnisse nach \S 2 Abs. 1
+  EnergieStG}
+    \field{month}{02}
+    \field{year}{2022}
   \endentry
 \enddatalist
 \endinput

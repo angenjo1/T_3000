@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.2)  2 FEB 2022 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.2)  3 FEB 2022 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -809,8 +809,11 @@ pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count425
 \l__pdf_internal_box=\box61
-) (bericht.aux (abk.aux) (kapitel1.aux) (kapitel2.aux) (kapitel3.aux) (kapitel4
-.aux))
+) (bericht.aux (abk.aux) (kapitel1.aux
+
+LaTeX Warning: Label `fig-firmenHQ' multiply defined.
+
+) (kapitel2.aux) (kapitel3.aux) (kapitel4.aux))
 \openout1 = `bericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -1074,21 +1077,11 @@ Kapitel 1.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-<Bilder/SickFirmenGebäude.jpg, id=93, 578.16pt x 302.0886pt>
+<Bilder/SickFirmenGebäude.jpg, id=98, 578.16pt x 302.0886pt>
 File: Bilder/SickFirmenGebäude.jpg Graphic file (type jpg)
 <use Bilder/SickFirmenGebäude.jpg>
 Package pdftex.def Info: Bilder/SickFirmenGebäude.jpg  used on input line 15.
 (pdftex.def)             Requested size: 181.8567pt x 95.02216pt.
-<Bilder/Organigramm_GICPA.pdf, id=94, 753.5653pt x 399.74344pt>
-File: Bilder/Organigramm_GICPA.pdf Graphic file (type pdf)
-<use Bilder/Organigramm_GICPA.pdf>
-Package pdftex.def Info: Bilder/Organigramm_GICPA.pdf  used on input line 23.
-(pdftex.def)             Requested size: 477.69226pt x 253.39886pt.
-
-Overfull \hbox (31.52435pt too wide) in paragraph at lines 23--24
- [][] 
- []
-
 [8
 
 
@@ -1099,19 +1092,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.25 \end{figure}
-                  <./Bilder/SickFirmenGebäude.jpg>]) [9
+l.23 
+      <./Bilder/SickFirmenGebäude.jpg>]
+<Bilder/DiagrammSchwefel.png, id=105, 489.32813pt x 289.08pt>
+File: Bilder/DiagrammSchwefel.png Graphic file (type png)
+<use Bilder/DiagrammSchwefel.png>
+Package pdftex.def Info: Bilder/DiagrammSchwefel.png  used on input line 28.
+(pdftex.def)             Requested size: 321.70317pt x 190.05399pt.
+ [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.125 \include{kapitel1}
-                         <./Bilder/Organigramm_GICPA.pdf>]
+l.34 \begin{enumerate}
+                       <./Bilder/DiagrammSchwefel.png>]) [10]
 \openout2 = `kapitel2.aux'.
 
  (kapitel2.tex
 Kapitel 2.
-) [10
+) [11
 
 
 
@@ -1121,7 +1120,7 @@ Kapitel 2.
 
  (kapitel3.tex
 Kapitel 3.
-) [11
+) [12
 
 
 
@@ -1131,20 +1130,33 @@ Kapitel 3.
 
  (kapitel4.tex
 Kapitel 4.
-) [12
+) [13
 
 
 
 
 ]
+<Bilder/Organigramm_GICPA.pdf, id=140, 753.5653pt x 399.74344pt>
+File: Bilder/Organigramm_GICPA.pdf Graphic file (type pdf)
+<use Bilder/Organigramm_GICPA.pdf>
+Package pdftex.def Info: Bilder/Organigramm_GICPA.pdf  used on input line 136.
+(pdftex.def)             Requested size: 597.14983pt x 316.75343pt.
+
 No file bericht.ind.
-[13
+[14
 
 
-]
+] [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph0.
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.149 
+       <./Bilder/Organigramm_GICPA.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-43.
- (C:\Users\angenjo1\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+47.
+
+(C:\Users\angenjo1\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1152,35 +1164,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[14
+[16
 
 ] (bericht.aux (abk.aux) (kapitel1.aux) (kapitel2.aux) (kapitel3.aux)
 (kapitel4.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'bericht.run.xml'.
 \openout1 = `bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24510 strings out of 478659
- 428308 string characters out of 2844499
- 981323 words of memory out of 3000000
- 42062 multiletter control sequences out of 15000+600000
- 476826 words of font info for 124 fonts, out of 8000000 for 9000
+ 24604 strings out of 478659
+ 430004 string characters out of 2844499
+ 982718 words of memory out of 3000000
+ 42098 multiletter control sequences out of 15000+600000
+ 479232 words of font info for 148 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 85i,9n,90p,1869b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,10n,90p,1869b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc
-}<C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
-pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcs
-c10.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmr12.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmr17.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmr8.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/lm/lmri12.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmro12.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmtt12.pfb>
-Output written on bericht.pdf (15 pages, 378413 bytes).
+}{C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.
+enc}{C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.e
+nc}<C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
+2.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+csc10.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmmi8.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/lm/lmr12.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmr17.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmr8.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmri12.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/lm/lmro12.pfb><C:/Users/angenjo1/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmtt12.pfb>
+Output written on bericht.pdf (17 pages, 443637 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 41653 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 41658 words of extra memory for PDF output out of 42996 (max. 10000000)
 
